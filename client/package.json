@@ -6,6 +6,8 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@mantine/core": "^8.2.2",
+    "@mantine/hooks": "^8.2.2",
     "@mantine/modals": "^6.0.9",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.11.16",
