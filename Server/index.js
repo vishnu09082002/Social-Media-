@@ -29,10 +29,11 @@ app.use('/post', PostRoute);
 app.use('/upload', UploadRoute);
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGO_DB, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-})
+//mongoose.connect(process.env.MONGO_DB, {
+  //  useNewUrlParser: true,
+   // useUnifiedTopology: true
+//})
+mongoose.connect(process.env.MONGO_DB)
 .then(() => {
     console.log("✅ MongoDB Connected");
     app.listen(process.env.PORT, () =>
